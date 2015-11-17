@@ -27,4 +27,10 @@ Weaving Scenes
   narrative role?
 - Need to start making scenes and exploring what interactions are desired.
 
-
+Collaboration
+- big emphasis on making scene generation as clear and fast as possible
+- goal: crowd-sourcing sets of related scenes
+  - players should be encouraged to come up with their own scenes (after
+    they've played a bit)
+  - scenes are probably grouped into add-on modules which can be selectively
+    downloaded/activated
