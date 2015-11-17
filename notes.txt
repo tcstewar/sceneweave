@@ -1,0 +1,30 @@
+Random design notes
+
+Basic idea:
+- choice-based interactive fiction gameplay with an underlying world model
+- define a whole bunch of short scenes, each with a few choice points
+- scenes are marked with requirements for the actors in them
+  - e.g. person.height < 180 and area.type == 'forest' and 
+         person.has(type='hood', color='red')
+- scenes are written such that they can be played out from any actor's
+  perspective
+  - player makes decisions for one actor; computer makes decisions for other
+    actors (or maybe there's potential for multiplayer, but that seems tricky)
+  - means that players may eventually see the same scene from different
+    perspectives (with different combination of actors)
+- text for scene will need to do a bit of text-replacement to customize for
+  the particular actors (names, genders, level of detail, etc)
+  - hopefully can get away with just Inform-style "[Tom] puts on [his] shoes"
+    and marking some sentences as only shown to some actors.
+- scenes influence other scenes by modifying the actor and world-object states
+  - normal python objects, functions
+
+Weaving Scenes
+- Instead of randomly selecting scenes (from the set of valid possible
+  scenes given the current world-state), we can impose narrative structure
+  by choosing what scene comes next.
+- Not sure yet what this looks like.  Maybe scenes can be marked by their
+  narrative role?
+- Need to start making scenes and exploring what interactions are desired.
+
+

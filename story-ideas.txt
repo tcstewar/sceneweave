@@ -1,0 +1,45 @@
+Epic huge will-never-get-done ideas:
+
+- Life simulator
+  - born at random somewhere in the world
+  - live out your life
+    - e.g. Alter Ego: https://en.wikipedia.org/wiki/Alter_Ego_(1986_video_game)
+    - e.g. Real Lives: https://en.wikipedia.org/wiki/Real_Lives
+- Fantasy life simulator
+  - born at random somewhere in a stereotypical fantasy world
+  - live out your life
+
+
+Slightly smaller ideas (but still probably way too huge):
+
+- Goblin Hive
+  - Chapter 1:
+    - You are a random hero, wiping out a goblin infestation
+    - Attack the hive, probably die a few times
+      - each time you die, restart as a new randomly created hero with a new
+        goblin hive
+    - Eventually destroy all the goblins.
+    - Last one does some strange ritual
+    - You live a long and happy life, but always wonder a bit what that was...
+    - (Note: chapter 1 serves to introduce game mechanics, including dying a
+       lot, making choices, and generally sticks to fantasy tropes)
+  - Chapters 2-N:
+    - You are a random goblin, living with lots of other goblins
+    - social interactions
+    - job 
+    - politics (how should we deal with neighbouring humans?)
+    - die a lot (either through dangerous working conditions or rampaging heros)
+      - scenes from chapter 1 happen, but from a very different perspective
+    - goal is to complete the protection ritual
+      - rampaging heroes (or other disasters) keep interfering
+    - not sure what sort of gradual progression there should be here
+      - maybe completing some intermediate goals will unlock being born into
+        different situations?
+      - sort of structured as a rogue-like, with different character classes
+        to choose from?
+        - e.g.: as a guard, need to successfully alert the others when the
+          hero arrives; but you still die valiantly as the hero slaughters
+          everyone.  Now you can choose to be born as a goblin in some other
+          role.
+
+
