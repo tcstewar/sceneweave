@@ -6,6 +6,15 @@ class Actor(object):
     def __init__(self, roles):
         self.roles = roles
 
+class Player(Actor):
+    def __init__(self):
+        super(Player, self).__init__(roles=['player'])
+    def text(self, text):
+        self.world.text(text)
+    def choose(self, choices):
+        return self.world.choose(choices)
+
+
 class World(Actor):
     def __init__(self, seed=None):
         super(World, self).__init__(roles=['world'])
@@ -20,6 +29,7 @@ class World(Actor):
         self.texts.append(text)
 
     def add_actor(self, actor):
+        actor.world = self
         for r in actor.roles:
             if r not in self.actors:
                 self.actors[r] = set()
