@@ -1,0 +1,3 @@
+
+class NoValidSceneException(Exception):
+    pass
